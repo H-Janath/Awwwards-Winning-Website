@@ -1,8 +1,10 @@
-import React from 'react'
 
 const App = () => {
     return (
-        <div>App</div>
+        <div className="text-5xl text-violet-300 font-bold">
+            Well come to Awwwards
+
+        </div>
     )
 }
 export default App
