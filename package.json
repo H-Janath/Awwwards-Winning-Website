@@ -2,8 +2,11 @@
   "name": "awwwards-winning-website",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://H-Janath.github.io/Awwwards-Winning-Website",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
